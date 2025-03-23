@@ -1,0 +1,3 @@
+[2024-08-26 06:46:26.1724654786] N/tpm tpm started
+[2024-08-26 06:46:26.1724654786] E/tpm get_tpm_key: Unseal key at 0x810000FF is failed.
+[2024-08-26 06:46:26.1724654786] N/tpm tpm shutdown

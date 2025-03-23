@@ -1,0 +1,19 @@
+from selenium import webdriver
+
+def launch_chrome():
+    # Specify the path to your ChromeDriver executable
+    chromedriver_path = "C:\Program Files\Google\Chrome\Application"
+
+    # Initialize the Chrome browser
+    driver = webdriver.Chrome(//*[@id="icon"])
+
+    # Open a website (e.g., Google)
+    driver.get('https://www.google.com')
+
+    # You can add additional code here to interact with the opened webpage
+
+    # Close the browser
+    driver.quit()
+
+# Call the function to launch Chrome
+launch_chrome()

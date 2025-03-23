@@ -1,0 +1,29 @@
+2024-08-26 04:53:00,901 - DEBUG - starting thread (client mode): 0xa5ae2750
+2024-08-26 04:53:00,901 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.4.1
+2024-08-26 04:53:01,040 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_for_Windows_8.6
+2024-08-26 04:53:01,040 - INFO - Connected (version 2.0, client OpenSSH_for_Windows_8.6)
+2024-08-26 04:53:01,059 - DEBUG - === Key exchange possibilities ===
+2024-08-26 04:53:01,059 - DEBUG - kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2024-08-26 04:53:01,060 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2024-08-26 04:53:01,060 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2024-08-26 04:53:01,060 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2024-08-26 04:53:01,060 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-26 04:53:01,060 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2024-08-26 04:53:01,060 - DEBUG - client compress: none, zlib@openssh.com
+2024-08-26 04:53:01,060 - DEBUG - server compress: none, zlib@openssh.com
+2024-08-26 04:53:01,060 - DEBUG - client lang: <none>
+2024-08-26 04:53:01,060 - DEBUG - server lang: <none>
+2024-08-26 04:53:01,060 - DEBUG - kex follows: False
+2024-08-26 04:53:01,060 - DEBUG - === Key exchange agreements ===
+2024-08-26 04:53:01,060 - DEBUG - Kex: curve25519-sha256@libssh.org
+2024-08-26 04:53:01,060 - DEBUG - HostKey: ssh-ed25519
+2024-08-26 04:53:01,060 - DEBUG - Cipher: aes128-ctr
+2024-08-26 04:53:01,060 - DEBUG - MAC: hmac-sha2-256
+2024-08-26 04:53:01,060 - DEBUG - Compression: none
+2024-08-26 04:53:01,060 - DEBUG - === End of kex handshake ===
+2024-08-26 04:53:01,065 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2024-08-26 04:53:01,065 - DEBUG - Switch to new keys ...
+2024-08-26 04:53:01,065 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2024-08-26 04:53:01,065 - DEBUG - Adding ssh-ed25519 host key for None: b'b061fbe4587fb882fa7e26b703784bb6'
+2024-08-26 04:53:01,072 - ERROR - Failed to collect logs from None, Error: No authentication methods available
+2024-08-26 04:53:01,072 - DEBUG - EOF in transport thread

@@ -1,0 +1,6 @@
+from sketchpy import canvas
+from turtle import screensize
+s=Screen()
+s.bgcolor('Black')
+
+ab=Canvas.sketch_from_svg('LordShiva/shivji.svg',scale=45)
